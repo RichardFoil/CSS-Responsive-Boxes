@@ -5,6 +5,30 @@ body {
 * {
   border: 1px solid black;
 }
+.a{
+  background-color: brown;
+}
+.b{
+  background-color: magenta;
+}
+.c{
+  background-color: purple;
+}
+.d{
+  background-color: pink;
+}
+.e{
+  background-color: green;
+}
+.f{
+  background-color: blue;
+}
+.g{
+  background-color: gold;
+}
+.h{
+  background-color: red;
+}
 body{
   text-align: center;
   font-size: xx-large;
