@@ -1,3 +1,44 @@
 body {
   background: blanchedalmond;
 }
+
+* {
+  border: 1px solid black;
+}
+body{
+  text-align: center;
+  font-size: xx-large;
+}
+.a{
+  background-color: red;
+}
+.b{
+  background-color: blue;
+}
+.c{
+  background-color: chartreuse;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+header, footer{
+  flex-grow: 1;
+}
+main{
+  flex-grow: 3;
+}
+@media (min-width: 600px){
+  .container{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  header{
+    width: 100%;
+  }
+  main, header, footer {
+  margin: 1em ;
+}
+}

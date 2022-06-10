@@ -1,3 +1,74 @@
 body {
   background: papayawhip;
 }
+
+*{
+  border: 1px solid black;
+}
+body{
+  text-align: center;
+  font-size: xx-large;
+}
+.a{
+  background-color: aqua;
+}
+.b{
+  background-color: azure;
+  height: 50%;
+}
+.c{
+  background-color: blue;
+  width: 30%;
+}
+.d{
+  background-color: cadetblue;
+  width: 30%;
+}
+.e{
+  background-color: darkcyan;
+  width: 30%;
+}
+.f{
+  background-color: deepskyblue;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;  
+  }
+.mid{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 10;
+}
+aside{
+  display: flex;
+  justify-content: space-between;
+  min-height: 15vh;
+  width: 90%;
+ 
+}
+main{
+  width: 90%;
+  
+}
+footer{
+  flex-grow: 3;
+}
+
+@media (min-width: 600px) {
+  .container{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  header{
+    width: 100%;
+  }
+  main{
+    width: 90%;
+  }
+  }
+}
